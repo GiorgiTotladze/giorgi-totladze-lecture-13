@@ -1,0 +1,30 @@
+@mixin font($font: "Roboto" sans-serif) {
+  font-family: $font;
+  
+}
+
+@mixin margins($margin:135px){
+    margin-left: $margin;
+}
+
+@mixin flex($justify: space-between, $alling:row, $wrap:no-wrap,){
+    display: flex;
+    justify-content: $justify;
+    align-items: $alling;
+    flex-wrap: $wrap;
+
+}
+
+
+@mixin header($max-width:368px, $width:100%) {
+    max-width: $max-width;
+    width: $width;
+}
+
+
+@mixin h1($size:24px, $weight:700,$line:28.13px ,  $top:76px) {
+    font-size: $size;
+    font-weight: $size;
+    margin-top: $top;
+    line-height: $line;
+}

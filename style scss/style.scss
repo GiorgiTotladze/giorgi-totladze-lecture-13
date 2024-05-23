@@ -1,0 +1,23 @@
+@import 'reset';
+@import 'variables';
+@import 'mixins';
+
+
+
+
+header {
+    margin-top: 21px;
+    @include flex;
+    @include header;
+    p {
+        @include font;
+    }
+}
+
+body {
+    @include margins
+}
+
+h1 {
+    @include h1;
+}
