@@ -28,3 +28,65 @@
     margin-top: $top;
     line-height: $line;
 }
+
+
+@mixin flexContainer($justify, $items, $direction) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $items;
+    flex-direction: $direction;
+  }
+  
+  @mixin image($url) {
+    background-image: url($url);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+
+  @mixin right_side($url){
+    background-image: url($url);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 430px;
+    width: 758px;
+    margin-bottom: 42px;
+  }
+  @mixin left_side($url){
+    background-image: url($url);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 362px;
+    height: 212px;
+    margin-bottom: 103px;
+  }
+
+
+  @mixin menu($width: 1440px, $height: 201px, $color:#243043){
+    width: $width;
+    height: $height;
+    background-color: $color;
+    margin-left: -135px;
+    margin-right: 135px;
+
+  }
+
+  @mixin div($width: 404px, $color: #818687, $bottom:14px, $weight:700, $size:12px ){
+    width: $weight;
+    color: $color;
+    margin-bottom: $bottom;
+    font-weight: $weight;
+    font-size: $size;
+  }
+
+
+
+  @mixin h3(){
+    width: 249px;
+    height: 14px;
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 100px;
+  }
