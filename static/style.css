@@ -1,0 +1,376 @@
+#search {
+  border: 0;
+  outline: none;
+  border-radius: 2px;
+  border-bottom: 2.5px solid rgb(21, 146, 255);
+  border-left: 2.5px solid rgb(21, 146, 255);
+  border-top: 2.5px solid rgb(21, 146, 255);
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  width: 350px;
+  height: 40px;
+  padding-left: 10px;
+  background-color: inherit;
+  margin-left: auto;
+  position: absolute;
+  flex: 1;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-left: -50px;
+}
+
+.h {
+  width: 1000px;
+  position: relative;
+  margin: auto;
+  margin-top: 45px;
+}
+
+.search {
+  flex: 1;
+  border: 0;
+  background-color: rgb(21, 146, 255);
+  border-bottom: 2.5px solid rgb(21, 146, 255);
+  border-right: 2.5px solid rgb(21, 146, 255);
+  border-top: 2.5px solid rgb(21, 146, 255);
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+  width: 50px;
+  height: 40px;
+  position: absolute;
+  display: inline-block;
+  left: 64%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+#search:hover {
+  outline: none;
+}
+
+.search:hover {
+  background-color: rgb(21, 146, 255);
+}
+
+.nav {
+  position: sticky;
+  top: 0px;
+  background-color: white;
+}
+
+.nav-tabs {
+  background-color: white;
+}
+
+button:hover {
+  background-color: #c1c1c1;
+}
+
+.uper {
+  width: 100%;
+  height: 300px;
+  background-color: #c4c4c4;
+  margin-top: 25.5px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.downer {
+  width: 100%;
+  height: 300px;
+  background-color: #c4c4c4;
+  margin-top: 25.5px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.Con1 {
+  background-image: url("../images/acer_inspire_5_NX.KHJER.004_laptop_black_1-removebg-preview-removebg-preview.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 219px;
+  height: 190px;
+  margin: auto;
+}
+.Con1 p {
+  margin: auto;
+  text-align: center;
+  transform: translateY(190px);
+}
+
+.Con2 {
+  background-image: url("../images/WhatsApp_Image_2024-05-27_at_14.41.35_3feb5018-removebg-preview.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 219px;
+  height: 190px;
+  margin: auto;
+}
+.Con2 p {
+  margin: auto;
+  text-align: center;
+  transform: translateY(190px);
+}
+
+.Con3 {
+  background-image: url("../images/1-198122162147-removebg-preview.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 219px;
+  height: 190px;
+  margin: auto;
+}
+.Con3 p {
+  margin: auto;
+  text-align: center;
+  transform: translateY(190px);
+}
+
+.Con4 {
+  background-image: url("../images/IdeaPad_Gaming_3_16IAH7_Gray_01-removebg-preview.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 219px;
+  height: 190px;
+  margin: auto;
+}
+.Con4 p {
+  margin: auto;
+  text-align: center;
+  transform: translateY(190px);
+}
+
+.Con5 {
+  background-image: url("../images/dell.1920x1080303020034-removebg-preview.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 219px;
+  height: 190px;
+  margin: auto;
+}
+.Con5 P {
+  margin: auto;
+  text-align: center;
+  transform: translateY(190px);
+}
+
+.Con6 {
+  background-image: url("../images/msi_katana_15_laptop_black_1_1-removebg-preview.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 219px;
+  height: 190px;
+  margin: auto;
+}
+.Con6 p {
+  margin: auto;
+  text-align: center;
+  transform: translateY(190px);
+}
+
+.Con7 {
+  background-image: url("../images/hp_envy_x360_natural_silver_1-removebg-preview.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 219px;
+  height: 190px;
+  margin: auto;
+}
+.Con7 p {
+  margin: auto;
+  text-align: center;
+  transform: translateY(190px);
+}
+
+.Con8 {
+  background-image: url("../images/90NR0ID6-M000W0-1-removebg-preview.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 219px;
+  height: 190px;
+  margin: auto;
+}
+.Con8 p {
+  margin: auto;
+  text-align: center;
+  transform: translateY(190px);
+}
+
+.burger-icon {
+  display: none;
+  text-decoration: none;
+}
+
+.account {
+  border-radius: 3px;
+  background-color: orangered;
+  color: black;
+}
+.account a {
+  text-decoration: none;
+  color: black;
+  width: 100%;
+}
+
+.account:hover {
+  background-color: #c45c00;
+}
+
+form {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Log-in {
+  width: 100%;
+  height: 600px;
+  background-color: #c1c1c1;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap-reverse;
+  margin-top: 50px;
+}
+.Log-in input:hover {
+  outline: none;
+  background-color: inherit;
+}
+.Log-in input {
+  outline: none;
+  box-sizing: border-box;
+  border: none;
+  background-color: inherit;
+  border-bottom: 1px solid black;
+  width: 500px;
+  margin-bottom: 20px;
+}
+.Log-in button {
+  width: 500px;
+  background-color: inherit;
+  border: 0;
+  border-bottom: 1px solid black;
+}
+.Log-in button:hover {
+  background-color: darkgray;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+  font-size: large;
+}
+
+.sign-in {
+  margin-bottom: 60px;
+  font-size: 150px;
+}
+
+.i {
+  margin-right: 5px;
+}
+
+.Log {
+  margin-left: auto;
+}
+
+.acc {
+  margin-right: 5px;
+  font-size: 20px;
+}
+
+.Abt {
+  background-color: #c1c1c1;
+  width: 100%;
+  height: 600px;
+  margin-top: 50px;
+}
+
+.left_side p {
+  margin-top: 60px;
+  margin-left: 50px;
+  display: inline-block;
+  margin-left: 50px;
+  font-size: 20px;
+}
+.left_side h6 {
+  margin-top: 60px;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 5px;
+}
+
+.info {
+  margin: auto;
+  width: 100vh;
+  transform: translateY(20vh);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.info .cont {
+  width: 130px;
+  text-align: center;
+}
+.info .cont div {
+  border: 5px solid black;
+  width: 130px;
+  height: 130px;
+  margin-bottom: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 100%;
+}
+.info .cont div i {
+  font-size: 70px;
+}
+.info .cont p {
+  font-size: 15px;
+}
+
+.main {
+  background-color: #c1c1c1;
+  height: 600px;
+  margin-top: 50px;
+}
+
+.ABT {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  height: 600px;
+  background-color: #c1c1c1;
+  margin-top: 50px;
+}
+.ABT h1 {
+  margin: auto;
+  transform: translate(-5%);
+  margin-bottom: inherit;
+}
+.ABT p {
+  margin: auto;
+  transform: translateY(30%);
+  margin-top: inherit;
+  width: 100%;
+  font-size: larger;
+}
+
+.News {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: #c1c1c1;
+  height: 600px;
+  margin-top: 50px;
+}
